@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'echo "hellooo"'
-        emailext(subject: 'Build Status', body: 'This is build.', attachLog: true, to: 'sharad@moco.com.np', from: 'sarzz746@gmail.com')
+        emailext(subject: 'Build Status', body: 'This is build.', attachLog: true, to: 'sharad@moco.com.np', from: 'documentmanagement07@gmail.com')
       }
     }
 
